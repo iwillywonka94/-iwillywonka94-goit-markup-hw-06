@@ -789,6 +789,7 @@ img {
 
 .modal-wrapper {
   position: relative;
+  margin-top: 4px;
 }
 
 .modal-input {
@@ -831,6 +832,7 @@ img {
 .modal-area-text {
   height: 96px;
   width: 100%;
+  margin-top: 4px;
   padding: 12px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -938,15 +940,16 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   margin-right: 12px;
-}
-
-.footer-mail::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(20 / 16);
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.footer-mail::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
