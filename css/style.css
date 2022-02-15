@@ -966,6 +966,7 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .footer-btn-icon {
