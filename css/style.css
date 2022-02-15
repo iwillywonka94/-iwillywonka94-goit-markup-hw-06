@@ -201,7 +201,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(./image/bgphoto.jpg);
+    url(../image/bgphoto.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -883,6 +883,7 @@ img {
 
 .modal-check-text > a {
   color: var(--accent-color);
+  text-decoration-skip-ink: none;
 }
 
 .check-icon {
